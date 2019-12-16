@@ -1,0 +1,7 @@
+apiVersion: bolingcavalry.k8s.io/v1
+kind: Programmer
+metadata:
+  name: example-programmer
+spec:
+  deploymentName: example-programmer
+  replicas: 1
